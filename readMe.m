@@ -21,6 +21,6 @@ sq(x):
 	if x == 0:
 		return 0
 	if x % 10 == 0:
-		return sq(x/10) * 10
+		return sq(x/10) * 100
 	else:
 		return sq(x-1) + x + (x-1)
